@@ -1,0 +1,344 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		C985FE421DA29BCE000579B9 /* TFDUDocument.m in Sources */ = {isa = PBXBuildFile; fileRef = C985FE411DA29BCE000579B9 /* TFDUDocument.m */; };
+		C985FE461DA2A007000579B9 /* TFPUProgressViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C985FE451DA2A007000579B9 /* TFPUProgressViewController.m */; };
+		C9A005511DA12CDB00BAC565 /* MAKVONotificationCenter.m in Sources */ = {isa = PBXBuildFile; fileRef = C9A005501DA12CDB00BAC565 /* MAKVONotificationCenter.m */; };
+		C9A005541DA12D3500BAC565 /* TFDPrinter.m in Sources */ = {isa = PBXBuildFile; fileRef = C9A005531DA12D3500BAC565 /* TFDPrinter.m */; };
+		C9A005571DA12F8600BAC565 /* TFDExtras.m in Sources */ = {isa = PBXBuildFile; fileRef = C9A005561DA12F8600BAC565 /* TFDExtras.m */; };
+		C9C1B2A31DA1266A00364637 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = C9C1B2A21DA1266A00364637 /* AppDelegate.m */; };
+		C9C1B2A61DA1266A00364637 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = C9C1B2A51DA1266A00364637 /* main.m */; };
+		C9C1B2A91DA1266A00364637 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C9C1B2A81DA1266A00364637 /* ViewController.m */; };
+		C9C1B2AB1DA1266A00364637 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C9C1B2AA1DA1266A00364637 /* Assets.xcassets */; };
+		C9C1B2AE1DA1266A00364637 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C9C1B2AC1DA1266A00364637 /* Main.storyboard */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		C985FE401DA29BCE000579B9 /* TFDUDocument.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TFDUDocument.h; sourceTree = "<group>"; };
+		C985FE411DA29BCE000579B9 /* TFDUDocument.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TFDUDocument.m; sourceTree = "<group>"; };
+		C985FE441DA2A007000579B9 /* TFPUProgressViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TFPUProgressViewController.h; sourceTree = "<group>"; };
+		C985FE451DA2A007000579B9 /* TFPUProgressViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TFPUProgressViewController.m; sourceTree = "<group>"; };
+		C9A0054F1DA12CDB00BAC565 /* MAKVONotificationCenter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MAKVONotificationCenter.h; sourceTree = "<group>"; };
+		C9A005501DA12CDB00BAC565 /* MAKVONotificationCenter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MAKVONotificationCenter.m; sourceTree = "<group>"; };
+		C9A005521DA12D3500BAC565 /* TFDPrinter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TFDPrinter.h; sourceTree = "<group>"; };
+		C9A005531DA12D3500BAC565 /* TFDPrinter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TFDPrinter.m; sourceTree = "<group>"; };
+		C9A005551DA12F8600BAC565 /* TFDExtras.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TFDExtras.h; sourceTree = "<group>"; };
+		C9A005561DA12F8600BAC565 /* TFDExtras.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TFDExtras.m; sourceTree = "<group>"; };
+		C9C1B29E1DA1266A00364637 /* Duet Uploader.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Duet Uploader.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		C9C1B2A11DA1266A00364637 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		C9C1B2A21DA1266A00364637 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		C9C1B2A51DA1266A00364637 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		C9C1B2A71DA1266A00364637 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		C9C1B2A81DA1266A00364637 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		C9C1B2AA1DA1266A00364637 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		C9C1B2AD1DA1266A00364637 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		C9C1B2AF1DA1266A00364637 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C9C1B29B1DA1266A00364637 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		C985FE431DA29FCE000579B9 /* View Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				C9C1B2A71DA1266A00364637 /* ViewController.h */,
+				C9C1B2A81DA1266A00364637 /* ViewController.m */,
+				C985FE441DA2A007000579B9 /* TFPUProgressViewController.h */,
+				C985FE451DA2A007000579B9 /* TFPUProgressViewController.m */,
+			);
+			name = "View Controllers";
+			sourceTree = "<group>";
+		};
+		C9C1B2951DA1266A00364637 = {
+			isa = PBXGroup;
+			children = (
+				C9C1B2A01DA1266A00364637 /* Duet Uploader */,
+				C9C1B29F1DA1266A00364637 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		C9C1B29F1DA1266A00364637 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C9C1B29E1DA1266A00364637 /* Duet Uploader.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C9C1B2A01DA1266A00364637 /* Duet Uploader */ = {
+			isa = PBXGroup;
+			children = (
+				C9C1B2A11DA1266A00364637 /* AppDelegate.h */,
+				C9C1B2A21DA1266A00364637 /* AppDelegate.m */,
+				C985FE431DA29FCE000579B9 /* View Controllers */,
+				C9C1B2AA1DA1266A00364637 /* Assets.xcassets */,
+				C9C1B2AC1DA1266A00364637 /* Main.storyboard */,
+				C9C1B2AF1DA1266A00364637 /* Info.plist */,
+				C9A0054F1DA12CDB00BAC565 /* MAKVONotificationCenter.h */,
+				C9A005501DA12CDB00BAC565 /* MAKVONotificationCenter.m */,
+				C9A005521DA12D3500BAC565 /* TFDPrinter.h */,
+				C9A005531DA12D3500BAC565 /* TFDPrinter.m */,
+				C9A005551DA12F8600BAC565 /* TFDExtras.h */,
+				C9A005561DA12F8600BAC565 /* TFDExtras.m */,
+				C9C1B2A41DA1266A00364637 /* Supporting Files */,
+				C985FE401DA29BCE000579B9 /* TFDUDocument.h */,
+				C985FE411DA29BCE000579B9 /* TFDUDocument.m */,
+			);
+			path = "Duet Uploader";
+			sourceTree = "<group>";
+		};
+		C9C1B2A41DA1266A00364637 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				C9C1B2A51DA1266A00364637 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C9C1B29D1DA1266A00364637 /* Duet Uploader */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C9C1B2B21DA1266A00364637 /* Build configuration list for PBXNativeTarget "Duet Uploader" */;
+			buildPhases = (
+				C9C1B29A1DA1266A00364637 /* Sources */,
+				C9C1B29B1DA1266A00364637 /* Frameworks */,
+				C9C1B29C1DA1266A00364637 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Duet Uploader";
+			productName = "Duet Uploader";
+			productReference = C9C1B29E1DA1266A00364637 /* Duet Uploader.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C9C1B2961DA1266A00364637 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = "Tomas Franzén";
+				TargetAttributes = {
+					C9C1B29D1DA1266A00364637 = {
+						CreatedOnToolsVersion = 8.0;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = C9C1B2991DA1266A00364637 /* Build configuration list for PBXProject "Duet Uploader" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = C9C1B2951DA1266A00364637;
+			productRefGroup = C9C1B29F1DA1266A00364637 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C9C1B29D1DA1266A00364637 /* Duet Uploader */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C9C1B29C1DA1266A00364637 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C9C1B2AB1DA1266A00364637 /* Assets.xcassets in Resources */,
+				C9C1B2AE1DA1266A00364637 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C9C1B29A1DA1266A00364637 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C985FE421DA29BCE000579B9 /* TFDUDocument.m in Sources */,
+				C9C1B2A91DA1266A00364637 /* ViewController.m in Sources */,
+				C985FE461DA2A007000579B9 /* TFPUProgressViewController.m in Sources */,
+				C9A005571DA12F8600BAC565 /* TFDExtras.m in Sources */,
+				C9C1B2A61DA1266A00364637 /* main.m in Sources */,
+				C9A005541DA12D3500BAC565 /* TFDPrinter.m in Sources */,
+				C9A005511DA12CDB00BAC565 /* MAKVONotificationCenter.m in Sources */,
+				C9C1B2A31DA1266A00364637 /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		C9C1B2AC1DA1266A00364637 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C9C1B2AD1DA1266A00364637 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		C9C1B2B01DA1266A00364637 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.12;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		C9C1B2B11DA1266A00364637 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.12;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		C9C1B2B31DA1266A00364637 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = "Duet Uploader/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "se.tomasf.Duet-Uploader";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		C9C1B2B41DA1266A00364637 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = "Duet Uploader/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "se.tomasf.Duet-Uploader";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C9C1B2991DA1266A00364637 /* Build configuration list for PBXProject "Duet Uploader" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C9C1B2B01DA1266A00364637 /* Debug */,
+				C9C1B2B11DA1266A00364637 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C9C1B2B21DA1266A00364637 /* Build configuration list for PBXNativeTarget "Duet Uploader" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C9C1B2B31DA1266A00364637 /* Debug */,
+				C9C1B2B41DA1266A00364637 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = C9C1B2961DA1266A00364637 /* Project object */;
+}
